@@ -1,4 +1,5 @@
 ---
 - hosts: webserver
+  user: vagrant
   roles:
   - myrole

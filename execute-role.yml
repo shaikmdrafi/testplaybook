@@ -1,5 +1,5 @@
 ---
 - hosts: webserver
-  user: vagrant
+  become_user: vagrant
   roles:
   - myrole

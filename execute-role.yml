@@ -1,5 +1,5 @@
 ---
 - hosts: webserver
-  become_user: vagrant
+  sudo: yes
   roles:
   - myrole
